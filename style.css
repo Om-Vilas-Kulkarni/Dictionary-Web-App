@@ -93,6 +93,7 @@ i:hover{
 #myInput{
     font-size: 18px;
     outline: none;
+    width:215px;
     border:none;
     padding-bottom:5px;
     border-bottom: 3px solid rgb(104, 73, 216);
@@ -131,7 +132,7 @@ i:hover{
         font-size: 42px;
     }
     .box1{
-        width:315px;
+        width:300px;
     }
     #myinput,#btn{
         font-size: 16px;
