@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    padding:0;
+    height:98vh;
+    font-family: 'Poppins', sans-serif;
+    background: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 58px;
+    text-shadow: 1px 1px 5px rgb(122, 122, 122);
+}
+.box1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width:360px;
+    box-shadow: 1px 1px 8px rgb(84, 84, 84);
+    margin-left:10px;
+    margin-right:10px;
+}
+.smalldiv{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smalldiv2{
+    display: flex;
+    flex-direction: column;
+}
+#h31{
+    font-size: 22px;
+    padding-left:20px;
+    margin-bottom: 0;
+}
+#h41,#h42{
+    color: rgb(161, 161, 161);
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+#h41{
+    padding-left: 20px;
+}
+.innerdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#soundicon{
+    display: none;
+    padding-right:20px;
+    color: rgb(168, 144, 255);
+    padding-top: 15px;
+}
+i:hover{
+    color:  rgb(104, 73, 216);
+    cursor: pointer;
+   }
+.innerdiv2{
+    padding: 0px;
+    margin-top: 0;
+    display: flex;
+}
+.smalldiv3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#h32{
+    font-size: 16px;
+    padding-left: 20px;
+    width:88%;
+}
+#myInput{
+    font-size: 18px;
+    outline: none;
+    border:none;
+    padding-bottom:5px;
+    border-bottom: 3px solid rgb(104, 73, 216);
+}
+#btn{
+    color: white;
+    margin-left:15px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(168, 144, 255) ;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(140, 118, 219) ;
+}
+#example{
+    display:none;
+    font-size: 14px;
+    margin-left:20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width:83%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left: 3px solid rgb(104, 73, 216);
+    background-color: rgb(227, 227, 227);
+    margin-top:2px;
+}
+
+@media (max-width:394px){
+    .container h1{
+        font-size: 42px;
+    }
+    .box1{
+        width:315px;
+    }
+    #myinput,#btn{
+        font-size: 16px;
+    }
+    #btn{
+        margin-left:2px;
+    }
+}
+@media (min-width:395px) and (max-width:459px){
+    .container h1{
+        font-size: 50px;
+    }
+}
